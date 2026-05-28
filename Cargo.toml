@@ -9,7 +9,7 @@ readme = "README.md"
 license = "MIT"
 
 [dependencies]
-sc2-proto = { git = 'LordBlackhawk:bugfix/regenerate-with-newer-version-of-protoc'}
+sc2-proto = { git = 'https://github.com/LordBlackhawk/sc2-proto-rs', branch = 'bugfix/regenerate-with-newer-version-of-protoc'}
 # sc2-proto = { path = "../sc2-proto-rs" }
 sc2-macro = { path = "sc2-macro", version = "1" }
 tungstenite = { version = "^0.17.0", default-features = false }
